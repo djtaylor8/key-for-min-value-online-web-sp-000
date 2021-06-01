@@ -3,19 +3,6 @@
 
 def key_for_min_value(name_hash)
   min_key = ""
-  index = 0
-  name_hash.each do |key, value|
-    min_value = value
-    min_key = key
-    if value[index] < min_value
-      min_value = value
-      min_key = key
-      index += 1
-    end
-  end
-  if min_key == ""
-    nil
-  else
-    min_key
-  end
+  name_has.each do |key, value|
+    value.each do |
 end
